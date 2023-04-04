@@ -1,0 +1,56 @@
+$main: #222831;
+$elem: #393E46;
+$access: #D72323;
+$color: #EEEEEE;
+
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: auto;
+    padding: 24px 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid $elem;
+
+        .block{
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 10px 0;
+            text-align: left;
+
+            h3{
+                font-weight: 700;
+                font-size: 20px;
+                color: $color;
+                margin: 0;
+                margin-bottom: 12px;
+            }
+
+            a{
+                color: grey;
+                transition: color .2s;
+
+                &:hover{
+                    color: $access;
+                }
+            }
+
+            .contact{
+                display: flex;
+                gap: 0 10px;
+                align-items: center;
+                justify-content: end;
+            }
+
+            .social{
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                gap: 0 10px;
+                font-size: 24px;
+            }
+        }
+    
+}

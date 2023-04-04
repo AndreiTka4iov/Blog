@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    color: #EEEEEE;
+    text-decoration: none;
+}

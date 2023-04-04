@@ -1,0 +1,23 @@
+$main: #222831;
+$elem: #393E46;
+$access: #D72323;
+$color: #EEEEEE;
+
+.button{
+    padding: 0 12px;
+    color: $color;
+    height: 40px;
+    min-width: 80px;
+    border-radius: 15px;
+    background: $access;
+    border: 1px solid $access;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .2s;
+
+    &:hover{
+        background: transparent;
+        color: $access;
+    }
+}

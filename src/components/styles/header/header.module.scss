@@ -1,0 +1,55 @@
+$main: #222831;
+$elem: #393E46;
+$access: #D72323;
+$color: #EEEEEE;
+
+.header{
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    top: 0;
+    height: 60px;
+    padding: 0 12px;
+    background: $main;
+    border-bottom: 1px solid $elem;
+    color: $color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+    .logo{
+        display: block;
+        width: 40px;
+        height: 40px;
+
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .navBlock {
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+
+        .NavLink{
+            padding: 6px 12px;
+            transition: color .2s;
+            font-size: 18px;
+            font-weight: 500;
+            border-bottom: 1px solid transparent;
+            transition: .3s;
+
+            &.active{
+                padding-bottom: 10px;
+                border-bottom: 1px solid $access;
+            }
+
+            &:hover{
+                color: $access;
+            }
+        }
+    }
+}

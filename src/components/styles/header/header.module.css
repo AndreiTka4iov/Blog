@@ -1,0 +1,44 @@
+.header {
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  top: 0;
+  height: 60px;
+  padding: 0 12px;
+  background: #222831;
+  border-bottom: 1px solid #393E46;
+  color: #EEEEEE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.header .logo {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+.header .logo img {
+  width: 40px;
+  height: 40px;
+}
+.header .navBlock {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+.header .navBlock .NavLink {
+  padding: 6px 12px;
+  transition: color 0.2s;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+.header .navBlock .NavLink.active {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D72323;
+}
+.header .navBlock .NavLink:hover {
+  color: #D72323;
+}/*# sourceMappingURL=header.module.css.map */
