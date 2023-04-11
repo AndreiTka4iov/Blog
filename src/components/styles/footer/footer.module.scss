@@ -41,13 +41,13 @@ $color: #EEEEEE;
                 display: flex;
                 gap: 0 10px;
                 align-items: center;
-                justify-content: end;
+                justify-content: flex-end;
             }
 
             .social{
                 display: flex;
                 align-items: center;
-                justify-content: end;
+                justify-content: flex-end;
                 gap: 0 10px;
                 font-size: 24px;
             }
